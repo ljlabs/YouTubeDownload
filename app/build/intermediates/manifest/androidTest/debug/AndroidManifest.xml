@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dl.youtube.ljlabs.kyle.youtubedownload.test">
+
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="dl.youtube.ljlabs.kyle.youtubedownload"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for dl.youtube.ljlabs.kyle.youtubedownload"/>
+</manifest>
